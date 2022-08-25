@@ -1,0 +1,14 @@
+h1,h2 {
+    color: lightcoral;
+    background-color: aqua;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+
+}
+body{
+    color: blue;
+}
