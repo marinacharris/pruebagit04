@@ -12,3 +12,13 @@ h1,h2 {
 body{
     color: blue;
 }
+#t4{
+    color: goldenrod;
+    font-size: 30px;
+    font-family:'Trebuchet MS';
+}
+.estilo1{
+    color: rgb(44, 188, 54);
+    font-style: italic;
+    font-size: 25px;
+}
