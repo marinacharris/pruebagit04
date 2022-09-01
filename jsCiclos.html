@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        let conta = 1
+        while(conta <= 10){
+            document.write(conta)
+            document.write('<br>')
+            conta++
+        }
+        document.write('<br>')
+        conta = 1
+        do{
+            document.write(conta)
+            document.write('<br>')
+            conta++
+        }while(conta <= 10)
+        document.write('<br>')
+        for(let i = 1; i < 11; i++){
+            document.write(i)
+            document.write('<br>')
+        }
+        document.write('<br>')
+        const frutas = ["manzana", "pera",45]
+        const ciudades = new Array("Bogotá","Cali","Pereira");
+        for(let x in frutas){
+            document.write(frutas[x])
+            document.write('<br>')
+        }
+        document.write('<br>')
+        for(let x of ciudades){
+            document.write(x)
+            document.write('<br>')
+        }
+
+    </script>
+</body>
+</html>

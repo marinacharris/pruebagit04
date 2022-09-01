@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container">
-        <form action="" class="row">
+        <form action="" class="row g-3">
             <!-- primera fila -->
             <div class="col-md-3">
                 <label for="pNombre" class="form-label">Primer nombre</label>
@@ -68,6 +68,15 @@
                 <label for="comentarios" class="form-label">Comentarios</label>
                 <textarea name="comentarios" id="comentarios" class="form-control" rows="5"></textarea>
 
+            </div>
+            <!-- sexta fila -->
+            <div class="col-md-12">
+                <input type="checkbox" name="condiciones" id="condiciones" class="form-check-input">
+                <label for="condiciones" class="form-label">Acepto términos y condiciones</label>
+            </div>
+            <!-- séptima fila -->
+            <div class="col-md-12">
+                <button type="submit" class="btn btn-primary" id="boton">Enviar</button>
             </div>
 
         </form>
